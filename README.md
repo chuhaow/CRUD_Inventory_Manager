@@ -9,3 +9,6 @@ A Inventory Manager which implements CRUD function as well as deletion with comm
 
 ## Backend
 - A MySQL database hosted using aws
+
+## Note
+- Password and username are included for your convenience. It is not normal practice.
