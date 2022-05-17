@@ -34,7 +34,7 @@
                 <form th:action="@{/Items/delete/{id} (id=${item.id})}" th:object = "${item}" method = "POST">
                     <div class ="form-group">
                         <label>Comment</label>
-                        <input type = "text" name ="id" th:field = "*{comment}" class="form-control" placehold="Comment"/>
+                        <input type = "text" name ="id" th:field = "*{comment}" class="form-control" placehold="Comment" maxlength="255"/>
 
                     </div>
 
